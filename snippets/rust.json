@@ -1,0 +1,11 @@
+{
+    "func": {
+        "prefix": "func",
+        "body": [
+            "fn $1($2) -> $3 {",
+            "    $4",
+            "}"
+        ],
+        "description": "function"
+    }
+}

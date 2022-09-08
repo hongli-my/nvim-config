@@ -1,0 +1,55 @@
+{
+    "main": {
+        "prefix": "main",
+        "body": [
+            "if __name__ == '__main__':",
+            "    $1"
+        ],
+        "description": "main entry"
+    },
+    "shebang": {
+        "prefix": "shebang",
+        "body": [
+            "#!/usr/bin/env python3",
+            "# -*- coding=utf-8 -*-"
+        ],
+        "description": "shebang"
+    },
+    "bean": {
+        "prefix": "bean",
+        "body": [
+            "class $1:",
+            "    '''$2'''",
+            "    def __init__(self) -> None:",
+            "        $3"
+        ],
+        "description": "data bean"
+    },
+    "func": {
+        "prefix": "func",
+        "body": [
+            "def $1($2) -> $3:",
+            "    $4"
+        ],
+        "description": "function"
+    },
+    "class": {
+        "prefix": "class",
+        "body": [
+            "class $1:",
+            "    \"\"\"$2\"\"\"",
+            "    def __init__(self) -> None",
+            "        $3"
+        ],
+        "description": "class"
+    },
+    "method": {
+        "prefix": "method",
+        "body": [
+            "def $1(self):",
+            "    \"\"\"$2\"\"\"",
+            "    $3"
+        ],
+        "description": "method"
+    }
+}

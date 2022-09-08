@@ -1,0 +1,20 @@
+{
+    "code": {
+        "prefix": "code",
+        "body": [
+            "```$1",
+            "$2",
+            "```"
+        ],
+        "description": "code block"
+    },
+    "tip": {
+        "prefix": "info",
+        "body": [
+            "::: $1 ${2:tips}",
+            "$3",
+            ":::"
+        ],
+        "description": "code block"
+    }
+}
