@@ -7,3 +7,4 @@ require('core.style')
 require('custom')
 -- 加载插件
 require('plugins')
+vim.wo.relativenumber = true

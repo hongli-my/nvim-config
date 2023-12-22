@@ -183,13 +183,9 @@ require('lualine').setup({
 -- indentline
 --------------------------
 vim.opt.list = true
-vim.opt.listchars:append("space:⋅")
-vim.opt.listchars:append("eol:↴")
+
 require("indent_blankline").setup {
-    bufname_exclude = { 'dashboard', 'NvimTree' },
-    buftype_exclude = { 'Terminal' },
     show_end_of_line = true,
-    space_char_blankline = " ",
 }
 
 
